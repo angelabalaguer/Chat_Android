@@ -12,7 +12,9 @@ public class App extends Application {
         super.onCreate();
 //Se crea un socket que apunta a la ruta que se muestra
         try {
-            mSocket = IO.socket("http://angelauptchat.eu-4.evennode.com/");
+            mSocket = IO.socket("http://wiluptchat.eu-4.evennode.com/");
+         //   mSocket = IO.socket("http://angelauptchat.eu-4.evennode.com/");
+
         }
         catch (Exception e){
         }

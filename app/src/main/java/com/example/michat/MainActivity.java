@@ -39,6 +39,7 @@ public class MainActivity  extends AppCompatActivity {
                 String res = (String) args[0];
                 if (res.equals("OK")) {
                     Log.i("mimensaje", "Se envio correctamente");
+                    //un visto
                 } else
                     Log.i("mimensaje", "Hubo error en el envio");
             }
